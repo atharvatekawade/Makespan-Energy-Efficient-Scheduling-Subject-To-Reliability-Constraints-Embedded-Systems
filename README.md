@@ -21,15 +21,16 @@ Department of Informatics, Kyushu University, Fukuoka, Japan ; Yizhi Ren; Yang X
 ## Usage
 Clone the repositary and run the command: python main.py -rho -pr -R -smin -smax -ods_start -ods_end -ods_step -wanms_start -wanms_end -wanms_step, the arguments are explained below:
 
-rho: Represents the number of parameter for number of nodes of FFT Task graph: n = (2+rho)*2**rho - 1.
-pr: Represents the number of processors in our embedded system.
-R: Represents the reliability constraint < 1.
-smin: Represents the lower bound for task computation requirement and edge data.
-smax: Represents the upper bound for task computation requirement and edge data.
-ods_start: Represents the starting value of Θ in ODS.
-ods_end: Represents the ending value of Θ in ODS.
-ods_step: Represents the value of step from ods_start to ods_end.
-mert_start: Represents the starting value of α in MERT.
-mert_end: Represents the ending value of α in MERT.
-mert_step: Represents the value of step from mert_start to mert_end.
+1) rho: Represents the number of parameter for number of nodes of FFT Task graph: n = (2+rho)*2**rho - 1.
+2) pr: Represents the number of processors in our embedded system.
+3) R: Represents the reliability constraint < 1.
+4) smin: Represents the lower bound for task computation requirement and edge data.
+5) smax: Represents the upper bound for task computation requirement and edge data.
+6) ods_start: Represents the starting value of Θ in ODS.
+7) ods_end: Represents the ending value of Θ in ODS.
+8) ods_step: Represents the value of step from ods_start to ods_end.
+9) mert_start: Represents the starting value of α in MERT.
+10) mert_end: Represents the ending value of α in MERT.
+11) mert_step: Represents the value of step from mert_start to mert_end.
+
 Upon running the command and successful execution, we get plots for the cost and makespan of different algorithms. Depending on the constraint, we use either of the two appraches mentioned above. The reliability plot also includes the reliability constraint for reference. Leave all flags blank for running parameters with default values.
