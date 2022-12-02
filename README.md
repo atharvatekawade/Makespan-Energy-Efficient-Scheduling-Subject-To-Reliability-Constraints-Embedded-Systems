@@ -4,10 +4,9 @@ a) Non-Fault Tolearnt: In this approach, we assign a each task to a single proce
 1) (ODS, MR, LEC) Dynamic DAG Scheduling on Multiprocessor Systems: Reliability, Energy, and Makespan - Jing Huang College of Computer Science and Electronic Engineering, Hunan University, Changsha, China,Key Laboratory for Embedded and Network Computing of Hunan Province, Hunan University, Changsha, China ; Renfa Li; Xun Jiao; Yu Jiang; Wanli Chang: https://ieeexplore.ieee.org/document/9211460
 2) (ESRG) Energy-Efficient Fault-Tolerant Scheduling of Reliable Parallel Applications on Heterogeneous Distributed Embedded Systems - Guoqi Xie College of Computer Science and Electronic Engineering, Hunan University, Hunan, China ; Yuekun Chen; Xiongren Xiao; Cheng Xu; Renfa Li; Keqin Li: https://ieeexplore.ieee.org/document/7938375
 3) (MECRG) Resource Consumption Cost Minimization of Reliable Parallel Applications on Heterogeneous Embedded Systems - Guoqi Xie
-Key Laboratory for Embedded and Network Computing of Hunan Province, Hunan University, Changsha, China
-; Yuekun Chen; Yan Liu; Yehua Wei; Renfa Li; Keqin Li: https://ieeexplore.ieee.org/document/7792673
+Key Laboratory for Embedded and Network Computing of Hunan Province, Hunan University, Changsha, China ; Yuekun Chen; Yan Liu; Yehua Wei; Renfa Li; Keqin Li: https://ieeexplore.ieee.org/document/7792673
 
-![Figure_1](https://user-images.githubusercontent.com/64606981/205252506-810ecaa7-6a05-469f-b157-bdfd9eb02ed2.png)
+![Figure_1](https://user-images.githubusercontent.com/64606981/205256147-6487f33d-d245-4ee9-914c-235b28b9ea2d.png)
 
 b) Fault-Tolearnt: In this approach, we assign a each task to a multiple processors if the constraint is not satisfied by Non-Fault Tolerant approach. We only try to optimize energy in this case. Our proposed method named EAFTS is compared with the following state-of-art algorithms:
 
