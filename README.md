@@ -33,4 +33,4 @@ ods_step: Represents the value of step from ods_start to ods_end.
 mert_start: Represents the starting value of α in MERT.
 mert_end: Represents the ending value of α in MERT.
 mert_step: Represents the value of step from mert_start to mert_end.
-Upon running the command and successful execution, we get plots for the cost and makespan of different algorithms. Depending onm the constraint, we use either of the two appraches mentioned above. The reliability plot also includes the reliability constraint for reference. Leave all flags blank for running parameters with default values.
+Upon running the command and successful execution, we get plots for the cost and makespan of different algorithms. Depending on the constraint, we use either of the two appraches mentioned above. The reliability plot also includes the reliability constraint for reference. Leave all flags blank for running parameters with default values.
